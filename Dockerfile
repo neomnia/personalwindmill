@@ -115,7 +115,7 @@ ENV UV_PYTHON_INSTALL_DIR=/tmp/windmill/cache/py_runtime
 ENV UV_PYTHON_PREFERENCE=only-managed
 ENV UV_TOOL_BIN_DIR=/usr/local/bin
 
-ENV PATH /usr/local/bin:/root/.local/bin:$PATH
+ENV PATH=/usr/local/bin:/root/.local/bin:$PATH
 
 
 RUN apt-get update \
